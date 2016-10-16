@@ -48,6 +48,10 @@ videoClient::videoClient(QWidget *parent) :
     ui->connectToolButton->setCheckable(true);
 
     ui->widget->setVisible(false);
+    ui->setupToolButton->setStyleSheet("QToolButton:!checked{border-image: url(://images/yello-acients-folder-07.png);}"
+                                       "QToolButton:checked{border-image: url(://images/yello-acients-folder-16.png);}");
+    ui->setupToolButton->setCheckable(true);
+    ui->setupToolButton->setChecked(false);
 
 
     connect(ui->uptoolButton,SIGNAL(pressed()),

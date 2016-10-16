@@ -12,5 +12,7 @@
         <file>images/light.png</file>
         <file>images/button_off.png</file>
         <file>images/button_on.png</file>
+        <file>images/yello-acients-folder-07.png</file>
+        <file>images/yello-acients-folder-16.png</file>
     </qresource>
 </RCC>

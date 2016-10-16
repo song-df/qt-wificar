@@ -42,7 +42,7 @@ void TcpClient::slotReadData()
             qDebug() << "got frame length fail";
             exit(-1);
         }
-        qDebug() << "framelength = " << frameLength;
+        //qDebug() << "framelength = " << frameLength;
         isGotFrameHead = true;
         //ui->statusLabel->setText(QString::number(frameLength));
     }

@@ -3,6 +3,7 @@
 
 #include <QTcpSocket>
 #include <QPixmap>
+#include <QBuffer>
 
 class TcpClient : public QTcpSocket
 {
@@ -28,6 +29,7 @@ private:
 
     QByteArray videoBuffer;
     QByteArray videoHeadBuffer;
+    QBuffer videoHdBuff;
 };
 
 #endif // TCPCLIENT_H
